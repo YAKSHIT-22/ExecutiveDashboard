@@ -442,9 +442,9 @@ export default function Profile() {
             </div>
           </div>
           <div class="flex flex-col w-full 2xl:w-2/3">
-            <div class="flex-1 bg-white rounded-lg shadow-xl p-8">
+            <div class="flex-1 bg-white rounded-lg shadow-xl p-8 flex flex-col items-start justify-start w-full">
               <h4 class="text-xl text-gray-900 font-bold">About</h4>
-              <p class="mt-2 text-gray-700">{listings[0]?.data?.about}</p>
+              <p class="mt-2 text-gray-700 whitespace-preline">{listings[0]?.data?.about}</p>
             </div>
           </div>
         </div>
